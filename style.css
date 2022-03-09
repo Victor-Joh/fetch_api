@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100%;
+  background: beige;
+  font-family: "Amatic SC", cursive;
+}
+
+main {
+  text-align: center;
+  color: purple;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+#quote {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.btn {
+  margin: 1rem;
+  padding: 0.4rem 1rem;
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+  background: white;
+  color: orange;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: orange;
+  color: white;
+}
+
+.submit-container {
+  padding: 1rem;
+}
+
+#submitted-quote {
+  padding: 1rem;
+  font-size: 2rem;
+}
